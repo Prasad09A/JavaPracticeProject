@@ -117,6 +117,9 @@ public class RealWorldEmployeeProgram {
         DoubleSummaryStatistics stats= employeeList.stream().collect(Collectors.summarizingDouble(e->e.getSalary()));
         System.out.println("Total salary is: "+stats.getSum());
         System.out.println("Average salaly is: "+stats.getAverage());
+
+
+        System.out.println("You have solved all your problems successfully related to real world queries on JAVA 8 ");
     }
 
 }
